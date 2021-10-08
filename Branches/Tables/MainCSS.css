@@ -65,3 +65,9 @@
                 background-color: yellow;
                 color: white;
                 }
+.grid-container {
+                display: column;
+                grid-column-gap: 10px;
+                grid-template-columns: auto auto auto;
+                padding: 10px;
+                }
