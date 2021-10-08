@@ -28,7 +28,7 @@
         height:60px;
         margin-left: 500px;}
 .background {
-            background-image: url(Images/background.jpg);
+            background-image: url(../Tables/Images/background.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover}
