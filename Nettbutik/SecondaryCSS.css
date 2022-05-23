@@ -1,0 +1,48 @@
+figure {
+    margin:2px;
+    display:inline-block;
+    vertical-align:top;
+    border:solid gray;
+    text-align:center;
+    position:relative;
+    padding-bottom:2.8em;
+  }
+  figure img {
+    display:block;
+    border:solid white
+  }
+  figcaption{
+    background:rgba(0,50,100,0.5);  
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:0.2em 2px;
+    min-height:2.4em;
+    opacity:1;
+    transition:0.5s;;
+  }
+  figcaption p {
+    margin:0;
+  }
+  #gridimg, #gridimg2 {
+    min-width:560px;
+    max-width:840px;
+    margin:auto;
+  }
+  #gridimg:first-line {
+    position:absolute;
+    color:green;
+  }
+  figure:nth-child(odd) figcaption {
+    color:red;
+  }
+  #gridimg2 figure {
+    padding:0;
+  }
+  #gridimg2 figure:hover figcaption {
+    opacity:0;
+  }
+  body {
+    text-align:center;
+  }
